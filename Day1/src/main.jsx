@@ -11,7 +11,7 @@ const reactElement = React.createElement (
   "Click me"
 )
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render(
  
     /* <App /> */
     reactElement
