@@ -1,0 +1,13 @@
+ 
+Virtual-DOM:
+
+Virtual DOM is the light-weight copy of DOM(Document Object Model). It doesn't display content directly on the screen. It make these changes and then tell react to change specific content in the document.
+
+Re-concillation: 
+
+The process of transfering data from virtual DOM to real DOM is re-concillation in which browser needs to update small changes cause when we make changes, it firstly render the documnet and make a copy of it as a virtual DOM and then it compare it with pervous one. This comparison identifies the exact changes needed and only update that parts rather than repaint all the document.
+
+React-Fiber:
+
+React-fiber is an architecture cause when changes met the work of react-fiber start, cause it have to decide the changes that what change is more important so it first do that. It break down updates into small units of work and also take pause as needed to ensure that important changes are handled first. It gives priority to user-iteraction changes rather than backend work.
+  For example: If user click on a button and on the other hand browser have to do some calculation, then it gives its priority to button clicking process.
