@@ -1,0 +1,10 @@
+-- In package.json folder mein structure kya rahay ga orr cheeaein run kase hon gii
+
+-- In package-lock.json mein dependencies ke details or details mein milti hain
+
+-- node_modules mein sb dependencies actual mein hoti hain
+
+-- tailwind.config.js or postcss.config.mjs mein sb configuration hoti jis say humay apni css likhne kee zaroort nhi prti
+
+-- app folder is important folder jis mein sara hum kaam krtay hain iss mein page.js kee file hoti hai jis mein hum jo bhi code likhe gy wo humay humri main screen pr dikhay ga
+
