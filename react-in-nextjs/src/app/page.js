@@ -12,12 +12,6 @@ const page = () => {
     return (
         <>
             <Header logo={logo} />
-            <div className='flex flex-col'>
-                <a href="About">About</a>
-                <a href="/Project">Project</a>
-                <a href="/Services">Services</a>
-            </div>
-
             <h1>My marks is {marks}</h1>
             <button onClick={() => { setmarks(90) }} className='bg-black p-1 mt-3 text-white rounded-md'>Update</button>
         </>
