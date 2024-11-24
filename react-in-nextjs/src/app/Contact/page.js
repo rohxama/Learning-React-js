@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 const Contact = () => {
   return (
     <>
-      <Header logo ={logo}/>
+      <Header />
     <p>Contact page</p>
     </>
   )
