@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 const Account = () => {
   return (
     <>
-      <Header logo ={logo}/>
+      <Header />
     <p>Account page</p>
     </>
   )
